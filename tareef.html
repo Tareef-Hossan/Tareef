@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 1000px;
+            height: auto;
+            margin: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Gallery</h1>
+
+    <div class="gallery">
+        <img src="38c14bfb-8152-4e26-ba1f-40f7c28034fc.jpg" alt="Image 1">
+        <img src="86.jpg" alt="Image 2">
+        <img src="441658009_448192591410146_4875663891121357261_n.jpg" alt="Image 3">
+        <img src="efs.jpg" alt="Image 4">
+        <img src="Screenshot 2024-11-12 151327.png" alt="Image 5">
+        <img src="Screenshot_2.png" alt="Image 6">
+        <img src="Untitled-2.jpg" alt="Image 7">
+        <img src="VII Runners-up.jpg" alt="Image 8">
+    </div>
+
+</body>
+</html>
